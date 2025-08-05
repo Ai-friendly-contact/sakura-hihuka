@@ -161,67 +161,23 @@ export default function Home() {
                 <CalendarCheck className="w-10 h-10 text-green-600" />
               </div>
               <h3 className="font-bold text-gray-900 mb-3">土曜日も診療</h3>
-              <p className="text-gray-600">平日お忙しい方も安心。土曜日午前中も診療しています</p>
+              <p className="text-gray-600">平日お忙しいときでも、土曜日に診療を行っています</p>
             </div>
 
             <div className="text-center">
-              <div className="w-20 h-20 flex items-center justify-center bg-orange-100 rounded-full mx-auto mb-6">
-                <Train className="w-10 h-10 text-orange-600" />
+              <div className="w-20 h-20 flex items-center justify-center bg-yellow-100 rounded-full mx-auto mb-6">
+                <Clock className="w-10 h-10 text-yellow-600" />
               </div>
-              <h3 className="font-bold text-gray-900 mb-3">駅から徒歩3分</h3>
-              <p className="text-gray-600">渋谷駅から徒歩3分の好立地。通勤・通学の途中でも通いやすい</p>
+              <h3 className="font-bold text-gray-900 mb-3">早朝受付</h3>
+              <p className="text-gray-600">8時から受付開始し、早朝の予約も受け付けています</p>
             </div>
 
             <div className="text-center">
-              <div className="w-20 h-20 flex items-center justify-center bg-pink-100 rounded-full mx-auto mb-6">
-                <Clock className="w-10 h-10 text-pink-600" />
+              <div className="w-20 h-20 flex items-center justify-center bg-purple-100 rounded-full mx-auto mb-6">
+                <Train className="w-10 h-10 text-purple-600" />
               </div>
-              <h3 className="font-bold text-gray-900 mb-3">予約不要</h3>
-              <p className="text-gray-600">基本的に予約は不要です。受付順にご案内いたします</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* お知らせ */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">お知らせ</h2>
-          <div className="bg-white rounded-lg shadow-sm p-8">
-            <div className="space-y-6">
-              <div className="flex items-start space-x-4">
-                <div className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-medium whitespace-nowrap">
-                  重要
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">年末年始の休診について</h3>
-                  <p className="text-gray-600">12月29日（金）〜1月3日（水）は休診とさせていただきます。</p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="bg-yellow-100 text-yellow-600 px-3 py-1 rounded-full text-sm font-medium whitespace-nowrap">
-                  混雑
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">午前中の混雑について</h3>
-                  <p className="text-gray-600">
-                    平日・土曜ともに9:00-11:00は混雑が予想されます。お時間に余裕をもってお越しください。
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium whitespace-nowrap">
-                  お知らせ
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">スギ花粉症の治療について</h3>
-                  <p className="text-gray-600">
-                    スギ花粉症シーズンに向けて、早めの治療をおすすめします。お気軽にご相談ください。
-                  </p>
-                </div>
-              </div>
+              <h3 className="font-bold text-gray-900 mb-3">アクセスが便利</h3>
+              <p className="text-gray-600">電車やバスからのアクセスが良好で、駅から徒歩5分です</p>
             </div>
           </div>
         </div>
